@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require('./db/db')
+const db = require('./db/db.js')
 const router = require('./routes/router.js')
 const knexfile = require ('./db/knexfile.js')
 const cors = require('cors');
